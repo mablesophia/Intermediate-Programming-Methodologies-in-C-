@@ -16,7 +16,7 @@ public:
 
 void input(Car* p){
     // Let user to enter the data into the struct. //
-    std::cout << "Enter the reporting mark (2-4 uppercase characters: ";
+    std::cout << "Enter the reporting mark (2-4 uppercase characters): ";
     std::cin  >> p->reportingMark;
     
     std::cout << "Enter the car number: ";
