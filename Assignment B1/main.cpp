@@ -33,16 +33,10 @@ void input(Car* p){
     else
         p->loaded = false;
     
-    if (p->loaded){
+    if (p->loaded)
         std::cout << "Enter your destination: ";
-        //std::cin.ignore();
-        //getline(std::cin, p->destination);
-    }
-    else{
+    else
         std::cout << "Enter your destination or None: ";
-        //std::cin.ignore();
-        //getline(std::cin, p->destination);
-    }
     std::cin.ignore();
     getline(std::cin, p->destination);
 }
