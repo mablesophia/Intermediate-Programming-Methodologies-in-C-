@@ -95,7 +95,6 @@ void Car::setUp(std::string mark, int num, std::string kind_car, bool loaded_car
 
 int main() {
     input();
-    std::cout << "test";
     return 0;
 }
 
