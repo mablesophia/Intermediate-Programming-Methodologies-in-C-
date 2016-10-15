@@ -19,7 +19,7 @@ public:
 
 void input(std::string* rm, int* cn, std::string* k, bool* l, std::string* d){
     // Let user to enter the data into the class. //
-    std::cout << "Enter the reporting mark (2-4 uppercase characters: ";
+    std::cout << "Enter the reporting mark (2-4 uppercase characters): ";
     std::cin  >> *rm;
     
     std::cout << "Enter the car number: ";
