@@ -1,0 +1,3 @@
+Car   CN   819481  maintenance  false  NONE
+Car   SLSF  46871  business     true   Memphis
+Car   AOK     156  tender       true   McAlester
